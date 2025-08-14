@@ -3,7 +3,6 @@ export const passToClient = ['pageProps', 'urlPathname']
 
 import ReactDOMServer from 'react-dom/server'
 import { dangerouslySkipEscape, escapeInject } from 'vite-plugin-ssr/server'
-import Icon from '../assets/icons/favicon.ico'
 import { PageShell } from './PageShell'
 import type { PageContextServer } from './types'
 
@@ -23,7 +22,7 @@ async function render(pageContext: PageContextServer) {
     <html lang="en">
       <head>
         <meta charset="UTF-8" />
-        <link rel="icon" href="${Icon}" />
+        <link rel="icon" href="../assets/icons/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="${desc}" />
         <title>${title}</title>

@@ -1,12 +1,16 @@
+import { Header,AboutSection,Carousel,Footer, Hero, ProductCard,ProductCarousel } from "../../components"
 
 export { Page }
 
 function Page() {
   return (
-    <>
-      <h1>Welcome</h1>
-      This page is:
-      <span> Hello World</span>
-    </>
+   <div>
+    <Header />
+    <Hero />
+    <Carousel />
+    <ProductCarousel products={[]} />
+    <AboutSection />
+    <Footer />
+   </div>
   )
 }

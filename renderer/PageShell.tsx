@@ -1,9 +1,10 @@
 import React from 'react'
-import logo from './logo.svg'
-import { PageContextProvider } from './usePageContext'
-import type { PageContext } from './types'
-import './PageShell.css'
+import "../styles/tailwind.css"
 import { Link } from './Link'
+import logo from './logo.svg'
+import './PageShell.css'
+import type { PageContext } from './types'
+import { PageContextProvider } from './usePageContext'
 
 export { PageShell }
 

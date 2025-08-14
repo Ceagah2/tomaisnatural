@@ -1,14 +1,15 @@
 export const Header = () => {
-  return (
-    <header>
-      <h1>My Website</h1>
+return (
+    <header className="bg-brand-primary text-brand.white p-4 flex justify-between items-center">
+      <h1 className="font-heading text-2xl">Loja Natural</h1>
       <nav>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/contact">Contact</a></li>
+        <ul className="flex gap-4 font-body text-lg">
+          <li>Home</li>
+          <li>Produtos</li>
+          <li>Sobre</li>
+          <li>Contato</li>
         </ul>
       </nav>
     </header>
-  )
+  );
 }

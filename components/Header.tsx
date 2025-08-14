@@ -1,5 +1,3 @@
-import Logo from '../assets/images/noBg_logo.png';
-export function Header() {
   const MenuItems = [
     { name: "Início", href: "/" },
     { name: "Produtos", href: "/produtos" },
@@ -13,7 +11,7 @@ export function Header() {
       style={{ backgroundColor: "#F8F5E4" }}
     >
       <div className="relative group flex items-center">
-        <img src={Logo} alt="Logo" className="h-15 w-20" />
+        <img src='../assets/images/noBg_logo.png' alt="Logo" className="h-15 w-20" />
       </div>
 
       <nav className="hidden md:flex gap-6">

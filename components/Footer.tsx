@@ -1,17 +1,22 @@
-import Logo from "../assets/images/noBg_logo.png";
 
 export const Footer = () => {
   return (
-    <footer className="bg-[#132F1C] text-[#E6E0B6] py-12 px-8 rounded-lg shadow-lg mt-10" id="contato">
+    <footer
+      className="bg-[#132F1C] text-[#E6E0B6] py-12 px-8 rounded-lg shadow-lg mt-10"
+      id="contato"
+    >
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between gap-8">
         <div className="flex flex-col items-start">
-          <img src={Logo} alt="TO + NATURAL" className="h-50 w-auto mb-4" />
+          <img
+            src="../assets/images/noBg_logo.png"
+            alt="TO + NATURAL"
+            className="h-50 w-auto mb-4"
+          />
           <p className="text-sm md:text-base font-body">
             Saúde em cada detalhe
           </p>
         </div>
 
-        {/* Links */}
         <div className="flex flex-col md:flex-row gap-12">
           <div>
             <h4 className="font-bold mb-2 font-heading">Navegação</h4>
@@ -44,7 +49,6 @@ export const Footer = () => {
             </ul>
           </div>
 
-          {/* Contato */}
           <div>
             <h4 className="font-bold mb-2 font-heading">Contato</h4>
             <ul className="space-y-1 text-sm md:text-base">
@@ -54,7 +58,6 @@ export const Footer = () => {
             </ul>
           </div>
 
-          {/* Redes sociais */}
           <div>
             <h4 className="font-bold mb-2 font-heading">Siga-nos</h4>
             <div className="flex gap-4 text-xl">
@@ -72,7 +75,6 @@ export const Footer = () => {
         </div>
       </div>
 
-      {/* Créditos */}
       <div className="mt-8 text-center text-sm text-gray-400">
         Desenvolvido com ♥ por <span className="font-bold">Forge & Flow</span>
       </div>

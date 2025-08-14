@@ -1,7 +1,7 @@
 export const Hero = () => {
   return (
     <section
-      className="relative w-full h-200 flex items-center justify-center"
+      className="relative w-full h-200 flex items-center justify-center rounded-lg shadow-lg overflow-hidden mb-10 mt-10"
       style={{ backgroundColor: "#F8F5E4" }}
     >
       <img

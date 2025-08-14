@@ -75,7 +75,7 @@ export const products = [
     name: "Proteína Vegana",
     description: "Proteína à base de ervilha e arroz.",
     price: 75.0,
-    isHighlighted: true,
+    isHighlighted: false,
     imageUrl:
       "https://placehold.co/600x400?text=Prote%C3%ADna+Vegana&font=Open+Sans",
   },
@@ -102,7 +102,7 @@ export const products = [
     name: "Mel Orgânico",
     description: "Mel 100% natural, sem conservantes.",
     price: 30.0,
-    isHighlighted: true,
+    isHighlighted: false,
     imageUrl:
       "https://placehold.co/600x400?text=Mel+Org%C3%A2nico&font=Open+Sans",
   },
@@ -120,7 +120,7 @@ export const products = [
     name: "Amêndoas",
     description: "Amêndoas selecionadas, saudáveis.",
     price: 24.0,
-    isHighlighted: true,
+    isHighlighted: false,
     imageUrl: "https://placehold.co/600x400?text=Am%C3%AAndoas&font=Open+Sans",
   },
   {
@@ -145,7 +145,7 @@ export const products = [
     name: "Chá de Hibisco",
     description: "Chá diurético e antioxidante.",
     price: 17.0,
-    isHighlighted: true,
+    isHighlighted: false,
     imageUrl:
       "https://placehold.co/600x400?text=Ch%C3%A1+de+Hibisco&font=Open+Sans",
   },
@@ -172,7 +172,7 @@ export const products = [
     name: "Chá de Erva-Cidreira",
     description: "Chá relaxante para noites tranquilas.",
     price: 16.0,
-    isHighlighted: true,
+    isHighlighted: false,
     imageUrl:
       "https://placehold.co/600x400?text=Ch%C3%A1+de+Erva-Cidreira&font=Open+Sans",
   },
@@ -181,7 +181,7 @@ export const products = [
     name: "Mix Fitness",
     description: "Mix de sementes e frutas desidratadas.",
     price: 26.0,
-    isHighlighted: true,
+    isHighlighted: false,
     imageUrl: "https://placehold.co/600x400?text=Mix+Fitness&font=Open+Sans",
   },
   {
@@ -198,7 +198,7 @@ export const products = [
     name: "Granola com Mel",
     description: "Granola artesanal com mel natural.",
     price: 21.0,
-    isHighlighted: true,
+    isHighlighted: false,
     imageUrl:
       "https://placehold.co/600x400?text=Granola+com+Mel&font=Open+Sans",
   },

@@ -3,8 +3,8 @@ export function Header() {
   const MenuItems = [
     { name: "Início", href: "/" },
     { name: "Produtos", href: "/produtos" },
-    { name: "Sobre", href: "/sobre" },
-    { name: "Contato", href: "/contato" },
+    { name: "Sobre", href: "/#sobre" },
+    { name: "Contato", href: "/#contato" },
     {name: "Nossas Lojas", href: "/nossas-lojas"},
   ]
   return (

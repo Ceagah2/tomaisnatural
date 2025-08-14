@@ -12,7 +12,10 @@ export function Header() {
       className="flex items-center justify-between px-8 py-4 shadow-md rounded-lg"
       style={{ backgroundColor: "#F8F5E4" }}
     >
-      <img src={Logo} alt="Logo" className="h-15 w-20" />
+      <div className="relative group flex items-center">
+        <img src={Logo} alt="Logo" className="h-15 w-20" />
+      </div>
+
       <nav className="hidden md:flex gap-6">
         {MenuItems.map((item) => (
           <a

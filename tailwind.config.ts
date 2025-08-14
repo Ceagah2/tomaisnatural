@@ -1,21 +1,31 @@
-import { colors } from "./styles/colors";
+import type { Config } from "tailwindcss";
 import { fonts } from "./styles/fonts";
 
-/** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx,page.jsx,page.tsx}"],
+const config: Config = {
+  content: [
+    "./index.html",
+    "./pages/**/*.{js,ts,jsx,tsx,page.jsx,page.tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
+
   theme: {
     extend: {
       colors: {
         brand: {
-          primary: colors.brand.primary,
-          secondary: colors.brand.secondary,
-          accent: colors.brand.accent,
-          dark: colors.brand.dark,
-          white: colors.brand.white,
-          black: colors.brand.black,
+          primary: "#1D4B2E",
+          secondary: "#E6E0B6",
+          accent: "#D4B200",
+          dark: "#132F1C",
+          white: "#FFFFFF",
+          black: "#000000",
         },
-        neutral: colors.neutral,
+        neutral: {
+          100: "#FAF8F1",
+          200: "#F3EED9",
+          300: "#E6E0B6",
+          400: "#B5A875",
+          500: "#83794F",
+        },
       },
       fontFamily: {
         heading: [fonts.family.heading],
@@ -40,3 +50,5 @@ module.exports = {
   },
   plugins: [],
 };
+
+export default config;

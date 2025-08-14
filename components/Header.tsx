@@ -1,17 +1,22 @@
+export const Header = () => {
   const MenuItems = [
     { name: "Início", href: "/" },
     { name: "Produtos", href: "/produtos" },
     { name: "Sobre", href: "/#sobre" },
     { name: "Contato", href: "/#contato" },
-    {name: "Nossas Lojas", href: "/nossas-lojas"},
-  ]
+    { name: "Nossas Lojas", href: "/nossas-lojas" },
+  ];
   return (
     <header
       className="flex items-center justify-between px-8 py-4 shadow-md rounded-lg"
       style={{ backgroundColor: "#F8F5E4" }}
     >
       <div className="relative group flex items-center">
-        <img src='../assets/images/noBg_logo.png' alt="Logo" className="h-15 w-20" />
+        <img
+          src="../assets/images/noBg_logo.png"
+          alt="Logo"
+          className="h-15 w-20"
+        />
       </div>
 
       <nav className="hidden md:flex gap-6">

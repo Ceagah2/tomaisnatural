@@ -2,7 +2,8 @@
   "scripts": {
     "dev": "npm run server:dev",
     "prod": "npm run lint && npm run build && npm run server:prod",
-    "build": "vite-plugin-ssr build",
+    "build": "vite build",
+    "build:ssr": "vite-plugin-ssr build",
     "server": "node --loader ts-node/esm ./server/index.ts",
     "server:dev": "npm run server",
     "server:prod": "cross-env NODE_ENV=production npm run server",
